@@ -1,0 +1,12 @@
+How to get started with Authtentication Web Api instead of Azure Functions.
+
+
+Packages to install:
+--------------------
+Microsoft.EntityFrameworkCore.SqlServer
+Microsoft.EntityFrameworkCore.Tools
+Microsoft.EntityFrameworkCore.Design
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
+
+
+Man använder ett WebAPI istället för en ServiceBus för autentisering eftersom vi behöver en direkt interaktion, där vi skickar en förfrågan och får ett svar tillbaka
